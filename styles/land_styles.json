@@ -1,0 +1,48 @@
+{
+    "Polygon": {
+        "weight": 0.25,
+        "color": "#63b226",
+        "opacity": 1
+    },
+
+    "LineString": {
+        "weight": 0.25,
+        "color": "#63b226",
+        "opacity": 1
+    },
+
+    "Point": {
+        "radius": 3,
+        "stroke": "#63b226",
+        "weight": 0.25,
+        "color": "#63b226",
+        "fill": "#63b226"
+    },
+
+    "textbox": {
+        "fontFamily": "Helvetica, Arial, sans-serif",
+        "fontColor": "#63b226",
+        "weight": 0,
+        "color": "#63b226"
+    },
+
+    "MultiPolygon": {
+        "weight": 0.25,
+        "color": "#63b226",
+        "opacity": 1
+    },
+
+    "MultiLineString": {
+        "weight": 0.25,
+        "color": "#63b226",
+        "opacity": 1
+    },
+
+    "MultiPoint": {
+        "radius": 3,
+        "stroke": "#63b226",
+        "weight": 0.25,
+        "color": "#63b226",
+        "fill": "#63b226"
+    }
+}

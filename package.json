@@ -1,0 +1,22 @@
+{
+  "name": "land-ocean",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "geojson2svg": "node run.js",
+    "geojson": "node geojson.js",
+    "svg2points": "node svg2points.js",
+    "geojson2location": "node geojson2location.js en"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "geojson-geometry-objects": "^1.0.7",
+    "geojson-to-svg": "^1.0.3",
+    "jsdom": "^16.0.1",
+    "raphael": "^2.3.0",
+    "snapsvg": "^0.5.1"
+  }
+}

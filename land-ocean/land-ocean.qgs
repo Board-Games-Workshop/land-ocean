@@ -1,0 +1,2380 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis version="3.10.1-A Coruña" projectname="">
+  <homePath path=""/>
+  <title></title>
+  <autotransaction active="0"/>
+  <evaluateDefaultValues active="0"/>
+  <trust active="0"/>
+  <projectCrs>
+    <spatialrefsys>
+      <proj4></proj4>
+      <srsid>0</srsid>
+      <srid>0</srid>
+      <authid></authid>
+      <description></description>
+      <projectionacronym></projectionacronym>
+      <ellipsoidacronym></ellipsoidacronym>
+      <geographicflag>false</geographicflag>
+    </spatialrefsys>
+  </projectCrs>
+  <layer-tree-group>
+    <customproperties/>
+    <layer-tree-layer name="airports" id="airports_86be5fd4_64c9_41fc_b99d_7550378bacc7" checked="Qt::Checked" providerKey="ogr" expanded="1" source="./airports.geojson|layername=airports">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer name="ne_10m_airports" id="ne_10m_airports_fa18a659_40c0_46cb_a3d7_266aefd32119" checked="Qt::Unchecked" providerKey="ogr" expanded="1" source="../../datasets/ne_10m_airports/ne_10m_airports.shp">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer name="ne_50m_ocean" id="ne_50m_ocean_2f5038da_079c_47e5_a784_06e639cd2f82" checked="Qt::Unchecked" providerKey="ogr" expanded="1" source="../../p/ne_50m_ocean.shx|layername=ne_50m_ocean">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer name="ne_50m_ocean" id="ne_50m_ocean_8e31c395_1432_4e37_9ef6_a531c2b95110" checked="Qt::Unchecked" providerKey="ogr" expanded="1" source="../../p/ne_50m_ocean.shp">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer name="ne_50m_ocean" id="ne_50m_ocean_e3fe43f3_d621_4e19_972c_f8b7416291df" checked="Qt::Unchecked" providerKey="ogr" expanded="1" source="../../p/ne_50m_ocean.dbf|layername=ne_50m_ocean">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer name="ne_50m_land" id="ne_50m_land_84fd34e2_b057_4498_b5f0_dd4c30e38b6b" checked="Qt::Unchecked" providerKey="ogr" expanded="1" source="../../p/ne_50m_land.shx|layername=ne_50m_land">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer name="ne_50m_land" id="ne_50m_land_5c224f81_2308_43f7_b357_ad8aa47e719b" checked="Qt::Unchecked" providerKey="ogr" expanded="1" source="../../p/ne_50m_land.shp">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer name="ne_50m_land" id="ne_50m_land_43447785_f636_4ffa_914c_4e74f7c90178" checked="Qt::Unchecked" providerKey="ogr" expanded="1" source="../../p/ne_50m_land.dbf|layername=ne_50m_land">
+      <customproperties/>
+    </layer-tree-layer>
+    <custom-order enabled="0">
+      <item>ne_50m_land_43447785_f636_4ffa_914c_4e74f7c90178</item>
+      <item>ne_50m_land_5c224f81_2308_43f7_b357_ad8aa47e719b</item>
+      <item>ne_50m_land_84fd34e2_b057_4498_b5f0_dd4c30e38b6b</item>
+      <item>ne_50m_ocean_e3fe43f3_d621_4e19_972c_f8b7416291df</item>
+      <item>ne_50m_ocean_8e31c395_1432_4e37_9ef6_a531c2b95110</item>
+      <item>ne_50m_ocean_2f5038da_079c_47e5_a784_06e639cd2f82</item>
+      <item>ne_10m_airports_fa18a659_40c0_46cb_a3d7_266aefd32119</item>
+      <item>airports_86be5fd4_64c9_41fc_b99d_7550378bacc7</item>
+    </custom-order>
+  </layer-tree-group>
+  <snapping-settings unit="1" type="1" enabled="0" mode="2" intersection-snapping="0" tolerance="12">
+    <individual-layer-settings>
+      <layer-setting type="1" enabled="0" id="ne_50m_land_84fd34e2_b057_4498_b5f0_dd4c30e38b6b" units="1" tolerance="12"/>
+      <layer-setting type="1" enabled="0" id="ne_50m_land_43447785_f636_4ffa_914c_4e74f7c90178" units="1" tolerance="12"/>
+      <layer-setting type="1" enabled="0" id="airports_86be5fd4_64c9_41fc_b99d_7550378bacc7" units="1" tolerance="12"/>
+      <layer-setting type="1" enabled="0" id="ne_50m_ocean_8e31c395_1432_4e37_9ef6_a531c2b95110" units="1" tolerance="12"/>
+      <layer-setting type="1" enabled="0" id="ne_10m_airports_fa18a659_40c0_46cb_a3d7_266aefd32119" units="1" tolerance="12"/>
+      <layer-setting type="1" enabled="0" id="ne_50m_land_5c224f81_2308_43f7_b357_ad8aa47e719b" units="1" tolerance="12"/>
+      <layer-setting type="1" enabled="0" id="ne_50m_ocean_2f5038da_079c_47e5_a784_06e639cd2f82" units="1" tolerance="12"/>
+      <layer-setting type="1" enabled="0" id="ne_50m_ocean_e3fe43f3_d621_4e19_972c_f8b7416291df" units="1" tolerance="12"/>
+    </individual-layer-settings>
+  </snapping-settings>
+  <relations/>
+  <mapcanvas name="theMapCanvas" annotationsVisible="1">
+    <units>unknown</units>
+    <extent>
+      <xmin>-142.43116458999298857</xmin>
+      <ymin>-110.8969122483731411</ymin>
+      <xmax>149.30666731450668294</xmax>
+      <ymax>130.17815470100379116</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <rendermaptile>0</rendermaptile>
+    <expressionContextScope/>
+  </mapcanvas>
+  <projectModels/>
+  <legend updateDrawingOrder="true">
+    <legendlayer name="airports" showFeatureCount="0" drawingOrder="-1" checked="Qt::Checked" open="true">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile isInOverview="0" layerid="airports_86be5fd4_64c9_41fc_b99d_7550378bacc7" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer name="ne_10m_airports" showFeatureCount="0" drawingOrder="-1" checked="Qt::Unchecked" open="true">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile isInOverview="0" layerid="ne_10m_airports_fa18a659_40c0_46cb_a3d7_266aefd32119" visible="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer name="ne_50m_ocean" showFeatureCount="0" drawingOrder="-1" checked="Qt::Unchecked" open="true">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile isInOverview="0" layerid="ne_50m_ocean_2f5038da_079c_47e5_a784_06e639cd2f82" visible="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer name="ne_50m_ocean" showFeatureCount="0" drawingOrder="-1" checked="Qt::Unchecked" open="true">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile isInOverview="0" layerid="ne_50m_ocean_8e31c395_1432_4e37_9ef6_a531c2b95110" visible="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer name="ne_50m_ocean" showFeatureCount="0" drawingOrder="-1" checked="Qt::Unchecked" open="true">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile isInOverview="0" layerid="ne_50m_ocean_e3fe43f3_d621_4e19_972c_f8b7416291df" visible="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer name="ne_50m_land" showFeatureCount="0" drawingOrder="-1" checked="Qt::Unchecked" open="true">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile isInOverview="0" layerid="ne_50m_land_84fd34e2_b057_4498_b5f0_dd4c30e38b6b" visible="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer name="ne_50m_land" showFeatureCount="0" drawingOrder="-1" checked="Qt::Unchecked" open="true">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile isInOverview="0" layerid="ne_50m_land_5c224f81_2308_43f7_b357_ad8aa47e719b" visible="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer name="ne_50m_land" showFeatureCount="0" drawingOrder="-1" checked="Qt::Unchecked" open="true">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile isInOverview="0" layerid="ne_50m_land_43447785_f636_4ffa_914c_4e74f7c90178" visible="0"/>
+      </filegroup>
+    </legendlayer>
+  </legend>
+  <mapViewDocks/>
+  <mapViewDocks3D/>
+  <projectlayers>
+    <maplayer minScale="1e+8" simplifyAlgorithm="0" autoRefreshTime="0" wkbType="Point" maxScale="0" simplifyDrawingTol="1" type="vector" readOnly="0" geometry="Point" styleCategories="AllStyleCategories" refreshOnNotifyMessage="" labelsEnabled="0" hasScaleBasedVisibilityFlag="0" simplifyMaxScale="1" simplifyDrawingHints="1" simplifyLocal="1" autoRefreshEnabled="0" refreshOnNotifyEnabled="0">
+      <extent>
+        <xmin>-157.90000000000000568</xmin>
+        <ymin>-37</ymin>
+        <xmax>174.80000000000001137</xmax>
+        <ymax>60.29999999999999716</ymax>
+      </extent>
+      <id>airports_86be5fd4_64c9_41fc_b99d_7550378bacc7</id>
+      <datasource>./airports.geojson|layername=airports</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>airports</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 symbollevels="0" forceraster="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol name="0" type="marker" force_rhr="0" alpha="1" clip_to_extent="1">
+            <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
+              <prop v="0" k="angle"/>
+              <prop v="190,178,151,255" k="color"/>
+              <prop v="1" k="horizontal_anchor_point"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="circle" k="name"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0" k="outline_width"/>
+              <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="diameter" k="scale_method"/>
+              <prop v="2" k="size"/>
+              <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+              <prop v="MM" k="size_unit"/>
+              <prop v="1" k="vertical_anchor_point"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks type="StringList">
+          <Option type="QString" value=""/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="scalerank">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="featurecla">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="type">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="name">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="abbrev">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="location">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="gps_code">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="iata_code">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="wikipedia">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="natlscale">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="comments">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="wikidataid">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="name_ar">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="name_bn">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="name_de">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="name_en">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="name_es">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="name_fr">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="name_el">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="name_hi">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="name_hu">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="name_id">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="name_it">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="name_ja">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="name_ko">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="name_nl">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="name_pl">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="name_pt">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="name_ru">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="name_sv">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="name_tr">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="name_vi">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="name_zh">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="wdid_score">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ne_id">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="id">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="className">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias name="" field="scalerank" index="0"/>
+        <alias name="" field="featurecla" index="1"/>
+        <alias name="" field="type" index="2"/>
+        <alias name="" field="name" index="3"/>
+        <alias name="" field="abbrev" index="4"/>
+        <alias name="" field="location" index="5"/>
+        <alias name="" field="gps_code" index="6"/>
+        <alias name="" field="iata_code" index="7"/>
+        <alias name="" field="wikipedia" index="8"/>
+        <alias name="" field="natlscale" index="9"/>
+        <alias name="" field="comments" index="10"/>
+        <alias name="" field="wikidataid" index="11"/>
+        <alias name="" field="name_ar" index="12"/>
+        <alias name="" field="name_bn" index="13"/>
+        <alias name="" field="name_de" index="14"/>
+        <alias name="" field="name_en" index="15"/>
+        <alias name="" field="name_es" index="16"/>
+        <alias name="" field="name_fr" index="17"/>
+        <alias name="" field="name_el" index="18"/>
+        <alias name="" field="name_hi" index="19"/>
+        <alias name="" field="name_hu" index="20"/>
+        <alias name="" field="name_id" index="21"/>
+        <alias name="" field="name_it" index="22"/>
+        <alias name="" field="name_ja" index="23"/>
+        <alias name="" field="name_ko" index="24"/>
+        <alias name="" field="name_nl" index="25"/>
+        <alias name="" field="name_pl" index="26"/>
+        <alias name="" field="name_pt" index="27"/>
+        <alias name="" field="name_ru" index="28"/>
+        <alias name="" field="name_sv" index="29"/>
+        <alias name="" field="name_tr" index="30"/>
+        <alias name="" field="name_vi" index="31"/>
+        <alias name="" field="name_zh" index="32"/>
+        <alias name="" field="wdid_score" index="33"/>
+        <alias name="" field="ne_id" index="34"/>
+        <alias name="" field="id" index="35"/>
+        <alias name="" field="className" index="36"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="scalerank" expression="" applyOnUpdate="0"/>
+        <default field="featurecla" expression="" applyOnUpdate="0"/>
+        <default field="type" expression="" applyOnUpdate="0"/>
+        <default field="name" expression="" applyOnUpdate="0"/>
+        <default field="abbrev" expression="" applyOnUpdate="0"/>
+        <default field="location" expression="" applyOnUpdate="0"/>
+        <default field="gps_code" expression="" applyOnUpdate="0"/>
+        <default field="iata_code" expression="" applyOnUpdate="0"/>
+        <default field="wikipedia" expression="" applyOnUpdate="0"/>
+        <default field="natlscale" expression="" applyOnUpdate="0"/>
+        <default field="comments" expression="" applyOnUpdate="0"/>
+        <default field="wikidataid" expression="" applyOnUpdate="0"/>
+        <default field="name_ar" expression="" applyOnUpdate="0"/>
+        <default field="name_bn" expression="" applyOnUpdate="0"/>
+        <default field="name_de" expression="" applyOnUpdate="0"/>
+        <default field="name_en" expression="" applyOnUpdate="0"/>
+        <default field="name_es" expression="" applyOnUpdate="0"/>
+        <default field="name_fr" expression="" applyOnUpdate="0"/>
+        <default field="name_el" expression="" applyOnUpdate="0"/>
+        <default field="name_hi" expression="" applyOnUpdate="0"/>
+        <default field="name_hu" expression="" applyOnUpdate="0"/>
+        <default field="name_id" expression="" applyOnUpdate="0"/>
+        <default field="name_it" expression="" applyOnUpdate="0"/>
+        <default field="name_ja" expression="" applyOnUpdate="0"/>
+        <default field="name_ko" expression="" applyOnUpdate="0"/>
+        <default field="name_nl" expression="" applyOnUpdate="0"/>
+        <default field="name_pl" expression="" applyOnUpdate="0"/>
+        <default field="name_pt" expression="" applyOnUpdate="0"/>
+        <default field="name_ru" expression="" applyOnUpdate="0"/>
+        <default field="name_sv" expression="" applyOnUpdate="0"/>
+        <default field="name_tr" expression="" applyOnUpdate="0"/>
+        <default field="name_vi" expression="" applyOnUpdate="0"/>
+        <default field="name_zh" expression="" applyOnUpdate="0"/>
+        <default field="wdid_score" expression="" applyOnUpdate="0"/>
+        <default field="ne_id" expression="" applyOnUpdate="0"/>
+        <default field="id" expression="" applyOnUpdate="0"/>
+        <default field="className" expression="" applyOnUpdate="0"/>
+      </defaults>
+      <constraints>
+        <constraint exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0" field="scalerank"/>
+        <constraint exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0" field="featurecla"/>
+        <constraint exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0" field="type"/>
+        <constraint exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0" field="name"/>
+        <constraint exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0" field="abbrev"/>
+        <constraint exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0" field="location"/>
+        <constraint exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0" field="gps_code"/>
+        <constraint exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0" field="iata_code"/>
+        <constraint exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0" field="wikipedia"/>
+        <constraint exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0" field="natlscale"/>
+        <constraint exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0" field="comments"/>
+        <constraint exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0" field="wikidataid"/>
+        <constraint exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0" field="name_ar"/>
+        <constraint exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0" field="name_bn"/>
+        <constraint exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0" field="name_de"/>
+        <constraint exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0" field="name_en"/>
+        <constraint exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0" field="name_es"/>
+        <constraint exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0" field="name_fr"/>
+        <constraint exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0" field="name_el"/>
+        <constraint exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0" field="name_hi"/>
+        <constraint exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0" field="name_hu"/>
+        <constraint exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0" field="name_id"/>
+        <constraint exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0" field="name_it"/>
+        <constraint exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0" field="name_ja"/>
+        <constraint exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0" field="name_ko"/>
+        <constraint exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0" field="name_nl"/>
+        <constraint exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0" field="name_pl"/>
+        <constraint exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0" field="name_pt"/>
+        <constraint exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0" field="name_ru"/>
+        <constraint exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0" field="name_sv"/>
+        <constraint exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0" field="name_tr"/>
+        <constraint exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0" field="name_vi"/>
+        <constraint exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0" field="name_zh"/>
+        <constraint exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0" field="wdid_score"/>
+        <constraint exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0" field="ne_id"/>
+        <constraint exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0" field="id"/>
+        <constraint exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0" field="className"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint exp="" desc="" field="scalerank"/>
+        <constraint exp="" desc="" field="featurecla"/>
+        <constraint exp="" desc="" field="type"/>
+        <constraint exp="" desc="" field="name"/>
+        <constraint exp="" desc="" field="abbrev"/>
+        <constraint exp="" desc="" field="location"/>
+        <constraint exp="" desc="" field="gps_code"/>
+        <constraint exp="" desc="" field="iata_code"/>
+        <constraint exp="" desc="" field="wikipedia"/>
+        <constraint exp="" desc="" field="natlscale"/>
+        <constraint exp="" desc="" field="comments"/>
+        <constraint exp="" desc="" field="wikidataid"/>
+        <constraint exp="" desc="" field="name_ar"/>
+        <constraint exp="" desc="" field="name_bn"/>
+        <constraint exp="" desc="" field="name_de"/>
+        <constraint exp="" desc="" field="name_en"/>
+        <constraint exp="" desc="" field="name_es"/>
+        <constraint exp="" desc="" field="name_fr"/>
+        <constraint exp="" desc="" field="name_el"/>
+        <constraint exp="" desc="" field="name_hi"/>
+        <constraint exp="" desc="" field="name_hu"/>
+        <constraint exp="" desc="" field="name_id"/>
+        <constraint exp="" desc="" field="name_it"/>
+        <constraint exp="" desc="" field="name_ja"/>
+        <constraint exp="" desc="" field="name_ko"/>
+        <constraint exp="" desc="" field="name_nl"/>
+        <constraint exp="" desc="" field="name_pl"/>
+        <constraint exp="" desc="" field="name_pt"/>
+        <constraint exp="" desc="" field="name_ru"/>
+        <constraint exp="" desc="" field="name_sv"/>
+        <constraint exp="" desc="" field="name_tr"/>
+        <constraint exp="" desc="" field="name_vi"/>
+        <constraint exp="" desc="" field="name_zh"/>
+        <constraint exp="" desc="" field="wdid_score"/>
+        <constraint exp="" desc="" field="ne_id"/>
+        <constraint exp="" desc="" field="id"/>
+        <constraint exp="" desc="" field="className"/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
+        <columns/>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer minScale="1e+8" simplifyAlgorithm="0" autoRefreshTime="0" wkbType="Point" maxScale="0" simplifyDrawingTol="1" type="vector" readOnly="0" geometry="Point" styleCategories="AllStyleCategories" refreshOnNotifyMessage="" labelsEnabled="0" hasScaleBasedVisibilityFlag="0" simplifyMaxScale="1" simplifyDrawingHints="1" simplifyLocal="1" autoRefreshEnabled="0" refreshOnNotifyEnabled="0">
+      <extent>
+        <xmin>-157.91978317375475172</xmin>
+        <ymin>-37.00635511428146174</ymin>
+        <xmax>174.79171943371517273</xmax>
+        <ymax>60.28906105029658846</ymax>
+      </extent>
+      <id>ne_10m_airports_fa18a659_40c0_46cb_a3d7_266aefd32119</id>
+      <datasource>../../datasets/ne_10m_airports/ne_10m_airports.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>ne_10m_airports</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>true</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 symbollevels="0" forceraster="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol name="0" type="marker" force_rhr="0" alpha="1" clip_to_extent="1">
+            <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
+              <prop v="0" k="angle"/>
+              <prop v="183,72,75,255" k="color"/>
+              <prop v="1" k="horizontal_anchor_point"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="circle" k="name"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0" k="outline_width"/>
+              <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="diameter" k="scale_method"/>
+              <prop v="2" k="size"/>
+              <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+              <prop v="MM" k="size_unit"/>
+              <prop v="1" k="vertical_anchor_point"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <property key="dualview/previewExpressions">
+          <value>"name"</value>
+        </property>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks type="StringList">
+          <Option type="QString" value=""/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="scalerank">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="featurecla">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="type">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="name">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="abbrev">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="location">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="gps_code">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="iata_code">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="wikipedia">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="natlscale">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="comments">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="wikidataid">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="name_ar">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="name_bn">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="name_de">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="name_en">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="name_es">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="name_fr">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="name_el">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="name_hi">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="name_hu">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="name_id">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="name_it">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="name_ja">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="name_ko">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="name_nl">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="name_pl">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="name_pt">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="name_ru">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="name_sv">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="name_tr">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="name_vi">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="name_zh">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="wdid_score">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ne_id">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="id">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="className">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias name="" field="scalerank" index="0"/>
+        <alias name="" field="featurecla" index="1"/>
+        <alias name="" field="type" index="2"/>
+        <alias name="" field="name" index="3"/>
+        <alias name="" field="abbrev" index="4"/>
+        <alias name="" field="location" index="5"/>
+        <alias name="" field="gps_code" index="6"/>
+        <alias name="" field="iata_code" index="7"/>
+        <alias name="" field="wikipedia" index="8"/>
+        <alias name="" field="natlscale" index="9"/>
+        <alias name="" field="comments" index="10"/>
+        <alias name="" field="wikidataid" index="11"/>
+        <alias name="" field="name_ar" index="12"/>
+        <alias name="" field="name_bn" index="13"/>
+        <alias name="" field="name_de" index="14"/>
+        <alias name="" field="name_en" index="15"/>
+        <alias name="" field="name_es" index="16"/>
+        <alias name="" field="name_fr" index="17"/>
+        <alias name="" field="name_el" index="18"/>
+        <alias name="" field="name_hi" index="19"/>
+        <alias name="" field="name_hu" index="20"/>
+        <alias name="" field="name_id" index="21"/>
+        <alias name="" field="name_it" index="22"/>
+        <alias name="" field="name_ja" index="23"/>
+        <alias name="" field="name_ko" index="24"/>
+        <alias name="" field="name_nl" index="25"/>
+        <alias name="" field="name_pl" index="26"/>
+        <alias name="" field="name_pt" index="27"/>
+        <alias name="" field="name_ru" index="28"/>
+        <alias name="" field="name_sv" index="29"/>
+        <alias name="" field="name_tr" index="30"/>
+        <alias name="" field="name_vi" index="31"/>
+        <alias name="" field="name_zh" index="32"/>
+        <alias name="" field="wdid_score" index="33"/>
+        <alias name="" field="ne_id" index="34"/>
+        <alias name="" field="id" index="35"/>
+        <alias name="" field="className" index="36"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="scalerank" expression="" applyOnUpdate="0"/>
+        <default field="featurecla" expression="" applyOnUpdate="0"/>
+        <default field="type" expression="" applyOnUpdate="0"/>
+        <default field="name" expression="" applyOnUpdate="0"/>
+        <default field="abbrev" expression="" applyOnUpdate="0"/>
+        <default field="location" expression="" applyOnUpdate="0"/>
+        <default field="gps_code" expression="" applyOnUpdate="0"/>
+        <default field="iata_code" expression="" applyOnUpdate="0"/>
+        <default field="wikipedia" expression="" applyOnUpdate="0"/>
+        <default field="natlscale" expression="" applyOnUpdate="0"/>
+        <default field="comments" expression="" applyOnUpdate="0"/>
+        <default field="wikidataid" expression="" applyOnUpdate="0"/>
+        <default field="name_ar" expression="" applyOnUpdate="0"/>
+        <default field="name_bn" expression="" applyOnUpdate="0"/>
+        <default field="name_de" expression="" applyOnUpdate="0"/>
+        <default field="name_en" expression="" applyOnUpdate="0"/>
+        <default field="name_es" expression="" applyOnUpdate="0"/>
+        <default field="name_fr" expression="" applyOnUpdate="0"/>
+        <default field="name_el" expression="" applyOnUpdate="0"/>
+        <default field="name_hi" expression="" applyOnUpdate="0"/>
+        <default field="name_hu" expression="" applyOnUpdate="0"/>
+        <default field="name_id" expression="" applyOnUpdate="0"/>
+        <default field="name_it" expression="" applyOnUpdate="0"/>
+        <default field="name_ja" expression="" applyOnUpdate="0"/>
+        <default field="name_ko" expression="" applyOnUpdate="0"/>
+        <default field="name_nl" expression="" applyOnUpdate="0"/>
+        <default field="name_pl" expression="" applyOnUpdate="0"/>
+        <default field="name_pt" expression="" applyOnUpdate="0"/>
+        <default field="name_ru" expression="" applyOnUpdate="0"/>
+        <default field="name_sv" expression="" applyOnUpdate="0"/>
+        <default field="name_tr" expression="" applyOnUpdate="0"/>
+        <default field="name_vi" expression="" applyOnUpdate="0"/>
+        <default field="name_zh" expression="" applyOnUpdate="0"/>
+        <default field="wdid_score" expression="" applyOnUpdate="0"/>
+        <default field="ne_id" expression="" applyOnUpdate="0"/>
+        <default field="id" expression="" applyOnUpdate="0"/>
+        <default field="className" expression="" applyOnUpdate="0"/>
+      </defaults>
+      <constraints>
+        <constraint exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0" field="scalerank"/>
+        <constraint exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0" field="featurecla"/>
+        <constraint exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0" field="type"/>
+        <constraint exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0" field="name"/>
+        <constraint exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0" field="abbrev"/>
+        <constraint exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0" field="location"/>
+        <constraint exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0" field="gps_code"/>
+        <constraint exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0" field="iata_code"/>
+        <constraint exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0" field="wikipedia"/>
+        <constraint exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0" field="natlscale"/>
+        <constraint exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0" field="comments"/>
+        <constraint exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0" field="wikidataid"/>
+        <constraint exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0" field="name_ar"/>
+        <constraint exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0" field="name_bn"/>
+        <constraint exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0" field="name_de"/>
+        <constraint exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0" field="name_en"/>
+        <constraint exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0" field="name_es"/>
+        <constraint exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0" field="name_fr"/>
+        <constraint exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0" field="name_el"/>
+        <constraint exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0" field="name_hi"/>
+        <constraint exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0" field="name_hu"/>
+        <constraint exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0" field="name_id"/>
+        <constraint exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0" field="name_it"/>
+        <constraint exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0" field="name_ja"/>
+        <constraint exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0" field="name_ko"/>
+        <constraint exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0" field="name_nl"/>
+        <constraint exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0" field="name_pl"/>
+        <constraint exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0" field="name_pt"/>
+        <constraint exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0" field="name_ru"/>
+        <constraint exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0" field="name_sv"/>
+        <constraint exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0" field="name_tr"/>
+        <constraint exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0" field="name_vi"/>
+        <constraint exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0" field="name_zh"/>
+        <constraint exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0" field="wdid_score"/>
+        <constraint exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0" field="ne_id"/>
+        <constraint exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0" field="id"/>
+        <constraint exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0" field="className"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint exp="" desc="" field="scalerank"/>
+        <constraint exp="" desc="" field="featurecla"/>
+        <constraint exp="" desc="" field="type"/>
+        <constraint exp="" desc="" field="name"/>
+        <constraint exp="" desc="" field="abbrev"/>
+        <constraint exp="" desc="" field="location"/>
+        <constraint exp="" desc="" field="gps_code"/>
+        <constraint exp="" desc="" field="iata_code"/>
+        <constraint exp="" desc="" field="wikipedia"/>
+        <constraint exp="" desc="" field="natlscale"/>
+        <constraint exp="" desc="" field="comments"/>
+        <constraint exp="" desc="" field="wikidataid"/>
+        <constraint exp="" desc="" field="name_ar"/>
+        <constraint exp="" desc="" field="name_bn"/>
+        <constraint exp="" desc="" field="name_de"/>
+        <constraint exp="" desc="" field="name_en"/>
+        <constraint exp="" desc="" field="name_es"/>
+        <constraint exp="" desc="" field="name_fr"/>
+        <constraint exp="" desc="" field="name_el"/>
+        <constraint exp="" desc="" field="name_hi"/>
+        <constraint exp="" desc="" field="name_hu"/>
+        <constraint exp="" desc="" field="name_id"/>
+        <constraint exp="" desc="" field="name_it"/>
+        <constraint exp="" desc="" field="name_ja"/>
+        <constraint exp="" desc="" field="name_ko"/>
+        <constraint exp="" desc="" field="name_nl"/>
+        <constraint exp="" desc="" field="name_pl"/>
+        <constraint exp="" desc="" field="name_pt"/>
+        <constraint exp="" desc="" field="name_ru"/>
+        <constraint exp="" desc="" field="name_sv"/>
+        <constraint exp="" desc="" field="name_tr"/>
+        <constraint exp="" desc="" field="name_vi"/>
+        <constraint exp="" desc="" field="name_zh"/>
+        <constraint exp="" desc="" field="wdid_score"/>
+        <constraint exp="" desc="" field="ne_id"/>
+        <constraint exp="" desc="" field="id"/>
+        <constraint exp="" desc="" field="className"/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig sortExpression="&quot;scalerank&quot;" actionWidgetStyle="dropDown" sortOrder="0">
+        <columns>
+          <column name="scalerank" type="field" hidden="0" width="-1"/>
+          <column name="featurecla" type="field" hidden="0" width="-1"/>
+          <column name="type" type="field" hidden="0" width="146"/>
+          <column name="name" type="field" hidden="0" width="-1"/>
+          <column name="abbrev" type="field" hidden="0" width="-1"/>
+          <column name="location" type="field" hidden="0" width="-1"/>
+          <column name="gps_code" type="field" hidden="0" width="-1"/>
+          <column name="iata_code" type="field" hidden="0" width="-1"/>
+          <column name="wikipedia" type="field" hidden="0" width="155"/>
+          <column name="natlscale" type="field" hidden="0" width="-1"/>
+          <column name="comments" type="field" hidden="0" width="-1"/>
+          <column name="wikidataid" type="field" hidden="0" width="-1"/>
+          <column name="name_ar" type="field" hidden="0" width="-1"/>
+          <column name="name_bn" type="field" hidden="0" width="-1"/>
+          <column name="name_de" type="field" hidden="0" width="-1"/>
+          <column name="name_en" type="field" hidden="0" width="-1"/>
+          <column name="name_es" type="field" hidden="0" width="-1"/>
+          <column name="name_fr" type="field" hidden="0" width="-1"/>
+          <column name="name_el" type="field" hidden="0" width="-1"/>
+          <column name="name_hi" type="field" hidden="0" width="-1"/>
+          <column name="name_hu" type="field" hidden="0" width="-1"/>
+          <column name="name_id" type="field" hidden="0" width="-1"/>
+          <column name="name_it" type="field" hidden="0" width="-1"/>
+          <column name="name_ja" type="field" hidden="0" width="-1"/>
+          <column name="name_ko" type="field" hidden="0" width="-1"/>
+          <column name="name_nl" type="field" hidden="0" width="-1"/>
+          <column name="name_pl" type="field" hidden="0" width="-1"/>
+          <column name="name_pt" type="field" hidden="0" width="-1"/>
+          <column name="name_ru" type="field" hidden="0" width="-1"/>
+          <column name="name_sv" type="field" hidden="0" width="-1"/>
+          <column name="name_tr" type="field" hidden="0" width="-1"/>
+          <column name="name_vi" type="field" hidden="0" width="-1"/>
+          <column name="name_zh" type="field" hidden="0" width="-1"/>
+          <column name="wdid_score" type="field" hidden="0" width="-1"/>
+          <column name="ne_id" type="field" hidden="0" width="-1"/>
+          <column type="actions" hidden="1" width="-1"/>
+          <column name="id" type="field" hidden="0" width="-1"/>
+          <column name="className" type="field" hidden="0" width="-1"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <previewExpression>"name"</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer minScale="1e+8" simplifyAlgorithm="0" autoRefreshTime="0" wkbType="MultiPolygon" maxScale="0" simplifyDrawingTol="1" type="vector" readOnly="0" geometry="Polygon" styleCategories="AllStyleCategories" refreshOnNotifyMessage="" labelsEnabled="0" hasScaleBasedVisibilityFlag="0" simplifyMaxScale="1" simplifyDrawingHints="1" simplifyLocal="1" autoRefreshEnabled="0" refreshOnNotifyEnabled="0">
+      <extent>
+        <xmin>-180</xmin>
+        <ymin>-89.99892578125002274</ymin>
+        <xmax>180</xmax>
+        <ymax>83.599609375</ymax>
+      </extent>
+      <id>ne_50m_land_43447785_f636_4ffa_914c_4e74f7c90178</id>
+      <datasource>../../p/ne_50m_land.dbf|layername=ne_50m_land</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>ne_50m_land</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 symbollevels="0" forceraster="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol name="0" type="fill" force_rhr="0" alpha="1" clip_to_extent="1">
+            <layer pass="0" enabled="1" locked="0" class="SimpleFill">
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="231,113,72,255" k="color"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.26" k="outline_width"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="solid" k="style"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks type="StringList">
+          <Option type="QString" value=""/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="scalerank">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="featurecla">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="min_zoom">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias name="" field="scalerank" index="0"/>
+        <alias name="" field="featurecla" index="1"/>
+        <alias name="" field="min_zoom" index="2"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="scalerank" expression="" applyOnUpdate="0"/>
+        <default field="featurecla" expression="" applyOnUpdate="0"/>
+        <default field="min_zoom" expression="" applyOnUpdate="0"/>
+      </defaults>
+      <constraints>
+        <constraint exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0" field="scalerank"/>
+        <constraint exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0" field="featurecla"/>
+        <constraint exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0" field="min_zoom"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint exp="" desc="" field="scalerank"/>
+        <constraint exp="" desc="" field="featurecla"/>
+        <constraint exp="" desc="" field="min_zoom"/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
+        <columns/>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer minScale="1e+8" simplifyAlgorithm="0" autoRefreshTime="0" wkbType="MultiPolygon" maxScale="0" simplifyDrawingTol="1" type="vector" readOnly="0" geometry="Polygon" styleCategories="AllStyleCategories" refreshOnNotifyMessage="" labelsEnabled="0" hasScaleBasedVisibilityFlag="0" simplifyMaxScale="1" simplifyDrawingHints="1" simplifyLocal="1" autoRefreshEnabled="0" refreshOnNotifyEnabled="0">
+      <extent>
+        <xmin>-180</xmin>
+        <ymin>-89.99892578125002274</ymin>
+        <xmax>180</xmax>
+        <ymax>83.599609375</ymax>
+      </extent>
+      <id>ne_50m_land_5c224f81_2308_43f7_b357_ad8aa47e719b</id>
+      <datasource>../../p/ne_50m_land.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>ne_50m_land</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 symbollevels="0" forceraster="0" type="singleSymbol" enableorderby="1">
+        <symbols>
+          <symbol name="0" type="fill" force_rhr="0" alpha="1" clip_to_extent="1">
+            <layer pass="0" enabled="1" locked="0" class="SimpleFill">
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="99,178,38,255" k="color"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0" k="outline_width"/>
+              <prop v="Pixel" k="outline_width_unit"/>
+              <prop v="solid" k="style"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>6</blendMode>
+      <featureBlendMode>6</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks type="StringList">
+          <Option type="QString" value=""/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="scalerank">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="featurecla">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="min_zoom">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias name="" field="scalerank" index="0"/>
+        <alias name="" field="featurecla" index="1"/>
+        <alias name="" field="min_zoom" index="2"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="scalerank" expression="" applyOnUpdate="0"/>
+        <default field="featurecla" expression="" applyOnUpdate="0"/>
+        <default field="min_zoom" expression="" applyOnUpdate="0"/>
+      </defaults>
+      <constraints>
+        <constraint exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0" field="scalerank"/>
+        <constraint exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0" field="featurecla"/>
+        <constraint exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0" field="min_zoom"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint exp="" desc="" field="scalerank"/>
+        <constraint exp="" desc="" field="featurecla"/>
+        <constraint exp="" desc="" field="min_zoom"/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
+        <columns/>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer minScale="1e+8" simplifyAlgorithm="0" autoRefreshTime="0" wkbType="MultiPolygon" maxScale="0" simplifyDrawingTol="1" type="vector" readOnly="0" geometry="Polygon" styleCategories="AllStyleCategories" refreshOnNotifyMessage="" labelsEnabled="0" hasScaleBasedVisibilityFlag="0" simplifyMaxScale="1" simplifyDrawingHints="1" simplifyLocal="1" autoRefreshEnabled="0" refreshOnNotifyEnabled="0">
+      <extent>
+        <xmin>-180</xmin>
+        <ymin>-89.99892578125002274</ymin>
+        <xmax>180</xmax>
+        <ymax>83.599609375</ymax>
+      </extent>
+      <id>ne_50m_land_84fd34e2_b057_4498_b5f0_dd4c30e38b6b</id>
+      <datasource>../../p/ne_50m_land.shx|layername=ne_50m_land</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>ne_50m_land</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 symbollevels="0" forceraster="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol name="0" type="fill" force_rhr="0" alpha="1" clip_to_extent="1">
+            <layer pass="0" enabled="1" locked="0" class="SimpleFill">
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="232,113,141,255" k="color"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.26" k="outline_width"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="solid" k="style"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks type="StringList">
+          <Option type="QString" value=""/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="scalerank">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="featurecla">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="min_zoom">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias name="" field="scalerank" index="0"/>
+        <alias name="" field="featurecla" index="1"/>
+        <alias name="" field="min_zoom" index="2"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="scalerank" expression="" applyOnUpdate="0"/>
+        <default field="featurecla" expression="" applyOnUpdate="0"/>
+        <default field="min_zoom" expression="" applyOnUpdate="0"/>
+      </defaults>
+      <constraints>
+        <constraint exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0" field="scalerank"/>
+        <constraint exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0" field="featurecla"/>
+        <constraint exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0" field="min_zoom"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint exp="" desc="" field="scalerank"/>
+        <constraint exp="" desc="" field="featurecla"/>
+        <constraint exp="" desc="" field="min_zoom"/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
+        <columns/>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer minScale="1e+8" simplifyAlgorithm="0" autoRefreshTime="0" wkbType="MultiPolygon" maxScale="0" simplifyDrawingTol="1" type="vector" readOnly="0" geometry="Polygon" styleCategories="AllStyleCategories" refreshOnNotifyMessage="" labelsEnabled="0" hasScaleBasedVisibilityFlag="0" simplifyMaxScale="1" simplifyDrawingHints="1" simplifyLocal="1" autoRefreshEnabled="0" refreshOnNotifyEnabled="0">
+      <extent>
+        <xmin>-179.99999999999997158</xmin>
+        <ymin>-85.19218750000004547</ymin>
+        <xmax>180</xmax>
+        <ymax>89.99999999999994316</ymax>
+      </extent>
+      <id>ne_50m_ocean_2f5038da_079c_47e5_a784_06e639cd2f82</id>
+      <datasource>../../p/ne_50m_ocean.shx|layername=ne_50m_ocean</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>ne_50m_ocean</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 symbollevels="0" forceraster="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol name="0" type="fill" force_rhr="0" alpha="1" clip_to_extent="1">
+            <layer pass="0" enabled="1" locked="0" class="SimpleFill">
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="164,113,88,255" k="color"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.26" k="outline_width"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="solid" k="style"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks type="StringList">
+          <Option type="QString" value=""/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="scalerank">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="featurecla">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="min_zoom">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias name="" field="scalerank" index="0"/>
+        <alias name="" field="featurecla" index="1"/>
+        <alias name="" field="min_zoom" index="2"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="scalerank" expression="" applyOnUpdate="0"/>
+        <default field="featurecla" expression="" applyOnUpdate="0"/>
+        <default field="min_zoom" expression="" applyOnUpdate="0"/>
+      </defaults>
+      <constraints>
+        <constraint exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0" field="scalerank"/>
+        <constraint exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0" field="featurecla"/>
+        <constraint exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0" field="min_zoom"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint exp="" desc="" field="scalerank"/>
+        <constraint exp="" desc="" field="featurecla"/>
+        <constraint exp="" desc="" field="min_zoom"/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
+        <columns/>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer minScale="1e+8" simplifyAlgorithm="0" autoRefreshTime="0" wkbType="MultiPolygon" maxScale="0" simplifyDrawingTol="1" type="vector" readOnly="0" geometry="Polygon" styleCategories="AllStyleCategories" refreshOnNotifyMessage="" labelsEnabled="0" hasScaleBasedVisibilityFlag="0" simplifyMaxScale="1" simplifyDrawingHints="1" simplifyLocal="1" autoRefreshEnabled="0" refreshOnNotifyEnabled="0">
+      <extent>
+        <xmin>-179.99999999999997158</xmin>
+        <ymin>-85.19218750000004547</ymin>
+        <xmax>180</xmax>
+        <ymax>89.99999999999994316</ymax>
+      </extent>
+      <id>ne_50m_ocean_8e31c395_1432_4e37_9ef6_a531c2b95110</id>
+      <datasource>../../p/ne_50m_ocean.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>ne_50m_ocean</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 symbollevels="0" forceraster="0" type="singleSymbol" enableorderby="1">
+        <symbols>
+          <symbol name="0" type="fill" force_rhr="0" alpha="1" clip_to_extent="1">
+            <layer pass="0" enabled="1" locked="0" class="SimpleFill">
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="55,126,184,255" k="color"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="38,89,128,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0" k="outline_width"/>
+              <prop v="Pixel" k="outline_width_unit"/>
+              <prop v="solid" k="style"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>6</blendMode>
+      <featureBlendMode>6</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks type="StringList">
+          <Option type="QString" value=""/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="scalerank">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="featurecla">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="min_zoom">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias name="" field="scalerank" index="0"/>
+        <alias name="" field="featurecla" index="1"/>
+        <alias name="" field="min_zoom" index="2"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="scalerank" expression="" applyOnUpdate="0"/>
+        <default field="featurecla" expression="" applyOnUpdate="0"/>
+        <default field="min_zoom" expression="" applyOnUpdate="0"/>
+      </defaults>
+      <constraints>
+        <constraint exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0" field="scalerank"/>
+        <constraint exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0" field="featurecla"/>
+        <constraint exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0" field="min_zoom"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint exp="" desc="" field="scalerank"/>
+        <constraint exp="" desc="" field="featurecla"/>
+        <constraint exp="" desc="" field="min_zoom"/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
+        <columns/>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer minScale="1e+8" simplifyAlgorithm="0" autoRefreshTime="0" wkbType="MultiPolygon" maxScale="0" simplifyDrawingTol="1" type="vector" readOnly="0" geometry="Polygon" styleCategories="AllStyleCategories" refreshOnNotifyMessage="" labelsEnabled="0" hasScaleBasedVisibilityFlag="0" simplifyMaxScale="1" simplifyDrawingHints="1" simplifyLocal="1" autoRefreshEnabled="0" refreshOnNotifyEnabled="0">
+      <extent>
+        <xmin>-179.99999999999997158</xmin>
+        <ymin>-85.19218750000004547</ymin>
+        <xmax>180</xmax>
+        <ymax>89.99999999999994316</ymax>
+      </extent>
+      <id>ne_50m_ocean_e3fe43f3_d621_4e19_972c_f8b7416291df</id>
+      <datasource>../../p/ne_50m_ocean.dbf|layername=ne_50m_ocean</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>ne_50m_ocean</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 symbollevels="0" forceraster="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol name="0" type="fill" force_rhr="0" alpha="1" clip_to_extent="1">
+            <layer pass="0" enabled="1" locked="0" class="SimpleFill">
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="243,166,178,255" k="color"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.26" k="outline_width"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="solid" k="style"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks type="StringList">
+          <Option type="QString" value=""/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="scalerank">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="featurecla">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="min_zoom">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias name="" field="scalerank" index="0"/>
+        <alias name="" field="featurecla" index="1"/>
+        <alias name="" field="min_zoom" index="2"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="scalerank" expression="" applyOnUpdate="0"/>
+        <default field="featurecla" expression="" applyOnUpdate="0"/>
+        <default field="min_zoom" expression="" applyOnUpdate="0"/>
+      </defaults>
+      <constraints>
+        <constraint exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0" field="scalerank"/>
+        <constraint exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0" field="featurecla"/>
+        <constraint exp_strength="0" unique_strength="0" constraints="0" notnull_strength="0" field="min_zoom"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint exp="" desc="" field="scalerank"/>
+        <constraint exp="" desc="" field="featurecla"/>
+        <constraint exp="" desc="" field="min_zoom"/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
+        <columns/>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+  </projectlayers>
+  <layerorder>
+    <layer id="ne_50m_land_43447785_f636_4ffa_914c_4e74f7c90178"/>
+    <layer id="ne_50m_land_5c224f81_2308_43f7_b357_ad8aa47e719b"/>
+    <layer id="ne_50m_land_84fd34e2_b057_4498_b5f0_dd4c30e38b6b"/>
+    <layer id="ne_50m_ocean_e3fe43f3_d621_4e19_972c_f8b7416291df"/>
+    <layer id="ne_50m_ocean_8e31c395_1432_4e37_9ef6_a531c2b95110"/>
+    <layer id="ne_50m_ocean_2f5038da_079c_47e5_a784_06e639cd2f82"/>
+    <layer id="ne_10m_airports_fa18a659_40c0_46cb_a3d7_266aefd32119"/>
+    <layer id="airports_86be5fd4_64c9_41fc_b99d_7550378bacc7"/>
+  </layerorder>
+  <properties>
+    <Gui>
+      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+    </Gui>
+    <Legend>
+      <filterByMap type="bool">false</filterByMap>
+    </Legend>
+    <Measure>
+      <Ellipsoid type="QString">WGS84</Ellipsoid>
+    </Measure>
+    <Measurement>
+      <AreaUnits type="QString"></AreaUnits>
+      <DistanceUnits type="QString"></DistanceUnits>
+    </Measurement>
+    <PAL>
+      <CandidatesLine type="int">50</CandidatesLine>
+      <CandidatesPoint type="int">16</CandidatesPoint>
+      <CandidatesPolygon type="int">30</CandidatesPolygon>
+      <DrawRectOnly type="bool">false</DrawRectOnly>
+      <DrawUnplaced type="bool">false</DrawUnplaced>
+      <SearchMethod type="int">0</SearchMethod>
+      <ShowingAllLabels type="bool">false</ShowingAllLabels>
+      <ShowingCandidates type="bool">false</ShowingCandidates>
+      <ShowingPartialsLabels type="bool">true</ShowingPartialsLabels>
+      <TextFormat type="int">0</TextFormat>
+      <UnplacedColor type="QString">255,0,0,255</UnplacedColor>
+    </PAL>
+    <Paths>
+      <Absolute type="bool">false</Absolute>
+    </Paths>
+    <PositionPrecision>
+      <Automatic type="bool">true</Automatic>
+      <DecimalPlaces type="int">2</DecimalPlaces>
+    </PositionPrecision>
+  </properties>
+  <visibility-presets/>
+  <transformContext/>
+  <projectMetadata>
+    <identifier></identifier>
+    <parentidentifier></parentidentifier>
+    <language></language>
+    <type></type>
+    <title></title>
+    <abstract></abstract>
+    <links/>
+    <author>aswin</author>
+    <creation>2020-01-06T16:44:17</creation>
+  </projectMetadata>
+  <Annotations/>
+  <Layouts/>
+  <Bookmarks/>
+  <ProjectViewSettings UseProjectScales="0">
+    <Scales/>
+  </ProjectViewSettings>
+</qgis>
