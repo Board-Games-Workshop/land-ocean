@@ -2,3 +2,5 @@ node_modules/
 *.jstextmate
 .vscode/
 .ipynb_checkpoints/
+.idea/
+

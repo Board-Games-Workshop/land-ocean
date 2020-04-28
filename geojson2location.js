@@ -1,6 +1,6 @@
 var fs = require('fs');
 const process = require('process');
-var data = fs.readFileSync('./airport_board_game.geojson');
+var data = fs.readFileSync('./geojson/airport_board_game_markers.geojson');
 var data = JSON.parse(data);
 // ES5
 var geojson2svg = require('geojson-to-svg'); // factory
@@ -166,47 +166,47 @@ var hex = scales.map((scale) => {
 });
 
 var svgString = geojson2svg()
-  .styles({ 'Point' : { fill: '#000000', stroke: '#000000', weight: 0.3 } })
+  .styles({ 'Point' : { fill: 'violet', stroke: 'green', weight: 2.0 } })
   .projection(function(coord) {
     return [(coord[0] + 180.3)*3.697541135, (-coord[1] + 83.9)*3.878341728];
   })
   .data(data)
   .render();
 
-fs.writeFileSync('./svg/airport_board_game.svg', svgString);
+fs.writeFileSync('./svg/airport_board_game_markers.svg', svgString);
 
-const dom = new JSDOM(svgString);
+// const dom = new JSDOM(svgString);
 
-var svg_circle = dom.window.document.querySelectorAll('svg circle');
-var points = {};
+// var svg_circle = dom.window.document.querySelectorAll('svg circle');
+// var points = {};
 
-svg_circle.forEach(function(element, i) {
-    var className = element.className.baseVal, id = element.id.baseVal;
-    points[className.replace("point ", "")] = {
-        'id': id ? id : className.replace("point ", ""),
-        'className': className.replace("point ", ""),
-        'key': id ? id : className.replace("point ", ""),
-        'cx': parseFloat(element.getAttribute('cx').toString()),
-        'cy': parseFloat(element.getAttribute('cy').toString())
-    };
-})
+// svg_circle.forEach(function(element, i) {
+//     var className = element.className.baseVal, id = element.id.baseVal;
+//     points[className.replace("point ", "")] = {
+//         'id': id ? id : className.replace("point ", ""),
+//         'className': className.replace("point ", ""),
+//         'key': id ? id : className.replace("point ", ""),
+//         'cx': parseFloat(element.getAttribute('cx').toString()),
+//         'cy': parseFloat(element.getAttribute('cy').toString())
+//     };
+// })
 
-var scaled_data = {};
+// var scaled_data = {};
 
-hex.map((location) => {
-    location['xcoord'] = points[location['ID']]['cx'];
-    location['ycoord'] = points[location['ID']]['cy'];
+// hex.map((location) => {
+//     location['xcoord'] = points[location['ID']]['cx'];
+//     location['ycoord'] = points[location['ID']]['cy'];
 
-    if (!scaled_data.hasOwnProperty(location['Scale'])) {
-        scaled_data[location['Scale']] = [];
-    }
+//     if (!scaled_data.hasOwnProperty(location['Scale'])) {
+//         scaled_data[location['Scale']] = [];
+//     }
 
-    scaled_data[location['Scale']].push(location);
-});
+//     scaled_data[location['Scale']].push(location);
+// });
 
-fs.writeFileSync('coordinate_map_distances.js', 
-"export default {\n\
-    data: " + JSON.stringify(Object.values(scaled_data)) + "\n\
-}");
+// fs.writeFileSync('coordinate_map_distances.js', 
+// "export default {\n\
+//     data: " + JSON.stringify(Object.values(scaled_data)) + "\n\
+// }");
 
-console.log("`coordinate_map_distances.js` file has been created");
+// console.log("`coordinate_map_distances.js` file has been created");
